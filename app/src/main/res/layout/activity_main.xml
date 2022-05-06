@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textField_Header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="-1dp"
+        android:padding="10dp"
+        android:text="memeaware ;)"
+        android:textSize="28sp" />
+
+
+    <ImageView
+        android:id="@+id/imageViewMain"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:paddingBottom="100dp"
+        android:src="@drawable/ic_baseline_downloading_24"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/textFieldDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+android:visibility="invisible"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="251dp"
+        android:hint="[No comment]"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/textField_Combo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="620dp"
+        android:visibility="invisible"
+        android:text="" />
+
+    <Button
+        android:id="@+id/button_GetNextPost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="31dp"
+        android:text="Check for new post"
+        android:layout_marginTop="10dp"
+        />
+
+
+</RelativeLayout>
